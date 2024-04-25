@@ -6,6 +6,10 @@ const config = {
 		extend: {}
 	},
 
+	daisyui: {
+		themes: ["cmyk", "dark"]
+	},
+
 	plugins: [
 		require("daisyui")
 	]
