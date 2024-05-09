@@ -13,6 +13,14 @@
 
 	<section class="flex flex-col gap-4">
 		<FilterWidget></FilterWidget>
-		<PerformanceMetric></PerformanceMetric>
+		<!-- TODO: 성능 측정 후, 데이터 기입할 수 있도록 추가 상태(state), 성능 계싼 및 저장 로직 필요 -->
+		<PerformanceMetric
+			metric={{
+				all: [],
+				filtered: [],
+				filter_time: 100,
+				search_time: 30
+			}}
+		></PerformanceMetric>
 	</section>
 </main>
