@@ -37,6 +37,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@macfja/svelte-persistent-store": "^2.4.1",
 		"https-proxy-agent": "^7.0.4",
 		"node-fetch": "^3.3.2",
 		"youtubei.js": "^9.3.0"
