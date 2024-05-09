@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { goto } from '$app/navigation';
 	import { search } from '$lib/store/search_state';
 	import Button from './Button.svelte';
 	import SearchBar from './SearchBar.svelte';
@@ -16,5 +17,9 @@
 		}}
 		bind:value
 	></SearchBar>
-	<Button>Logs</Button>
+	<Button
+		on:click={() => {
+			goto('/logs');
+		}}>Logs</Button
+	>
 </div>
