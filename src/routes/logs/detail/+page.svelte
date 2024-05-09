@@ -48,7 +48,9 @@
 		]}
 	></Table>
 
-	<div style={'display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));'}>
+	<div
+		style={'display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); justify-items: center;'}
+	>
 		<div class="flex w-fit flex-col gap-2 text-center">
 			<p class="text-xl text-gray-500">검색 결과</p>
 
