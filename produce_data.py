@@ -1,17 +1,3 @@
-# NOTE: 유튜브에서 데이터 가져오는 코드
-# NOTE: get_transcription.py에 있는 데이터 가져오는 코드(실행 코드) 여기로 옮기고 (함수화/클래스화 하기)
-# NOTE: 다 옮기고 실행 되는 지 확인하고나서 keywords 폴더랑 이 파일 같이 깃허브에 올리세요.
-# NOTE: get_transcription.py에 불필요한 코드 다 제거됐는지 확인하고 올리기.
-
-# 코드 분리 후 푸시
-
-# 중복 제거 -> 빈 데이터(결측치) 제거
-# 불용어 제거 (ko-stopwords.json 참조)
-# 토큰화
-# 임베딩
-
-# 48시간 이내.
-
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
 from dataclasses import dataclass
 import pandas as pd
